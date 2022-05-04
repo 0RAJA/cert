@@ -1,12 +1,4 @@
-###
- # @Author: raja 1647193241@qq.com
- # @Date: 2022-05-04 21:23:18
- # @LastEditors: raja 1647193241@qq.com
- # @LastEditTime: 2022-05-04 22:41:52
- # @FilePath: /SSL_TLS/gen.sh
- # @Description: 
-###
-# !/bin/sh
+#!/bin/bash
 
 # 1. 生成CA私钥和自签名证书,用于签署CSR
 rm *.pem
